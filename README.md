@@ -75,7 +75,7 @@ Feel free to [file an issue](https://github.com/vanadiuz/table-reservation/issue
 **Build Production Version of Plugin**
 - `npm run build` to build front-end part of plugin
 - Copy JS files from ./tremtr/dist/static/js to ./assets/js
-- Open table-reservation.php in plagin's root and comment 
+- Open table-reservation.php in plugin's root and comment 
 ```php
   wp_register_script( 'tremtr-app', 'http://localhost:8080/app.js' , '', '', true );
 ```
